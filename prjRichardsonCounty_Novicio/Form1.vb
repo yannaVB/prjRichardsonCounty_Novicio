@@ -5,7 +5,7 @@
         Dim propertyValue As Decimal
         Dim propertyTax As Decimal
         propertyValue = Val(txtAV.Text)
-        propertyTax = propertyValue * 0.015
+        propertyTax = propertyValue * 0.03
         txtTax.Text = FormatCurrency(propertyTax, 2)
     End Sub
 
